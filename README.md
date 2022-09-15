@@ -9,9 +9,15 @@ Requires [NodeJS](https://nodejs.org/en/) and compontent enough knowledge of cod
 
 First go to https://developers.line.biz/console/channel/new?type=messaging-api, sign into your LINE account and register new "Messaging API"/"Channel" (I don't know why they call it something weird like "Channel", what they mean is your LINE Bot).
 
-Once you've created it, it should open "Basic Settings", scroll down and get "Channel secret" and "Assertion signing key". Write these down somewhere.
+Once you've created it, it should open "Basic Settings", scroll down and get "Channel secret". Write it down somewhere.
+
+Go to the "Messaging API" section (click the tab at the top of the page). Then scroll down and get the "Channel access token".
 
 Download this code (top-right green button).
+
+Unzip the folder.
+
+Open the "ImportantBotInfo.txt" file and replace the first line with your "Channel access token". Replace the second line with your "Channel secret". (Please note this is the reverse order that you obtained these tokens).
 
 Open "Command Prompt"/"Terminal", type `cd [path-to-unziped-folder-you-downloaded-from-here-in-last-step]`, and hit enter.
 
