@@ -1,0 +1,3 @@
+<replace this line of text with LINE Channel Access Token>
+<replace this line of text with LINE Channel Secret>
+<replace this line of text with Discord Bot Token>
