@@ -1,12 +1,17 @@
 'use strict';
 
-const line = require('@line/bot-sdk');
-const express = require('express');
+import line from '@line/bot-sdk';
+import express from 'express';
 
-const ChaosHeroesBot = require("./ChaosHeroesBot.js");
+import ChaosHeroesBot from "./ChaosHeroesBot.mjs";
 
 export default class ChaosHeroesLINEBot extends ChaosHeroesBot {
 	constructor(channelAccessToken, channelSecret) {
+		// call ChaosHeroesBot constructor
+		super();
+
+		const config = { channelAccessToken, channelSecret };
+
 		// create LINE SDK client
 		this.client = new line.Client(config);
 
@@ -38,6 +43,8 @@ export default class ChaosHeroesLINEBot extends ChaosHeroesBot {
 	}
 
 	handleEvent(event) {
+		console.log(event);
+		console.log(event.type);
 		if (event.type !== 'message' || event.message.type !== 'text') {
 			// ignore non-text-message event
 			return Promise.resolve(null);

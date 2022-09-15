@@ -4,7 +4,7 @@
   "description": "A bot for Chaos Heroes players to quickly access information and calculations.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.mjs"
   },
   "repository": {
     "type": "git",
