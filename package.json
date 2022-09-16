@@ -21,6 +21,7 @@
   "homepage": "https://github.com/RobertBorghese/ChaosHeroesBot#readme",
   "dependencies": {
     "@line/bot-sdk": "^7.5.2",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "ngrok": "^4.2.0"
   }
 }

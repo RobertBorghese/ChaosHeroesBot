@@ -1,0 +1,262 @@
+[
+	{
+		"name": "Shifter",
+		"weapon": "Dagger",
+		"icon": "Shifter",
+		"stats": [30, 1.7, 24, 1.4, 36, 1.9],
+		"indirect": [10, 17, 8],
+		"element": "Water"
+	},
+	{
+		"name": "Sif",
+		"weapon": "Cudgel",
+		"icon": "Sif",
+		"stats": [30, 1.65, 26, 1.5, 34, 1.85],
+		"indirect": [10, 17, 9],
+		"element": "Taijutsu"
+	},
+	{
+		"name": "Madara",
+		"weapon": "Sword",
+		"icon": "Madara",
+		"stats": [25, 1.6, 25, 1.6, 40, 2],
+		"indirect": [15, 15, 7],
+		"element": "Cursed Seal Jutsu",
+		"designer": "Regreti3z~"
+	},
+	{
+		"name": "C.C.",
+		"weapon": "Staff",
+		"icon": "CC",
+		"stats": [24, 1.5, 38, 1.9, 34, 1.8],
+		"indirect": [16, 8, 10],
+		"element": "Thunder"
+	},
+	{
+		"name": "Stryker",
+		"weapon": "Sword",
+		"icon": "Stryker",
+		"stats": [38, 1.9, 25, 1.45, 33, 1.85],
+		"indirect": [8, 15, 11],
+		"element": "Fire",
+		"designer": "Infinity"
+	},
+	{
+		"name": "Nami",
+		"weapon": "Cudgel",
+		"icon": "Nami",
+		"stats": [34, 1.75, 38, 1.9, 24, 1.55],
+		"indirect": [10, 8, 16],
+		"element": "Thunder"
+	},
+	{
+		"name": "Onmyouji",
+		"weapon": "Staff",
+		"icon": "Onmyouji",
+		"stats": [36, 1.9, 33, 1.8, 27, 1.5],
+		"indirect": [9, 11, 14],
+		"element": "Water"
+	},
+	{
+		"name": "Susanoo",
+		"weapon": "Heavy Weapon",
+		"icon": "Susanoo",
+		"stats": [25, 1.45, 32, 1.75, 36, 1.9],
+		"indirect": [16, 11, 8],
+		"element": "Healing",
+		"designer": "Siky"
+	},
+	{
+		"name": "Cloud",
+		"weapon": "Heavy Weapon",
+		"icon": "Cloud",
+		"stats": [24, 1.7, 23, 1.45, 36, 1.95],
+		"indirect": [11, 16, 8],
+		"element": "Healing"
+	},
+	{
+		"name": "Hanuman",
+		"weapon": "Cudgel",
+		"icon": "Hanuman",
+		"stats": [25,  1.45, 36, 1.95, 32, 1.7],
+		"indirect": [16, 8, 11],
+		"element": "Genjutsu"
+	},
+	{
+		"name": "Kaneki",
+		"weapon": "Dagger",
+		"icon": "Kaneki",
+		"stats": [36, 1.9, 34, 1.75, 23, 1.45],
+		"indirect": [9, 11, 15],
+		"element": "Ninjutsu"
+	},
+	{
+		"name": "Erza",
+		"weapon": "Sword",
+		"icon": "Erza",
+		"stats": [38, 1.95, 25, 1.5, 30, 1.65],
+		"indirect": [9, 14, 12],
+		"element": "Genjutsu"
+	},
+	{
+		"name": "Zhao Yun",
+		"weapon": "Cudgel",
+		"icon": "ZhaoYun",
+		"stats": [32, 1.65, 38, 1.9, 23, 1.55],
+		"indirect": [10, 8, 17],
+		"element": "Genjutsu"
+	},
+	{
+		"name": "Muramasa",
+		"weapon": "Sword",
+		"icon": "Muramasa",
+		"stats": [34, 1.85, 30, 1.65, 26, 1.5],
+		"indirect": [9, 11, 16],
+		"element": "Genjutsu",
+		"designer": "Hughbee"
+	},
+	{
+		"name": "Ares",
+		"weapon": "Heavy Weapon",
+		"icon": "Ares",
+		"stats": [36, 1.8, 25, 1.55, 30, 1.75],
+		"indirect": [8, 16, 12],
+		"element": "Taijutsu"
+	},
+	{
+		"name": "Zeus",
+		"weapon": "Gloves",
+		"icon": "Zeus",
+		"stats": [36, 1.8, 29, 1.7, 25, 1.5],
+		"indirect": [9, 12, 16],
+		"element": "Water"
+	},
+	{
+		"name": "Hades",
+		"weapon": "Gloves",
+		"icon": "Hades",
+		"stats": [36, 1.8, 25, 1.5, 29, 1.7],
+		"indirect": [9, 16, 12],
+		"element": "Fire"
+	},
+	{
+		"name": "Death Knight",
+		"weapon": "Heavy Weapon",
+		"icon": "DeathKnight",
+		"stats": [30, 1.6, 35, 1.9, 25, 1.5],
+		"indirect": [11, 8, 15],
+		"element": "Wind"
+	},
+	{
+		"name": "Wanderer",
+		"weapon": "Sword",
+		"icon": "Wanderer",
+		"stats": [25, 1.4, 35, 1.9, 30, 1.7],
+		"indirect": [17, 8, 12],
+		"element": "Thunder"
+	},
+	{
+		"name": "Shinigami",
+		"weapon": "Sword",
+		"icon": "Shinigami",
+		"stats": [32, 1.7, 22, 1.4, 36, 1.9],
+		"indirect": [12, 17, 8],
+		"element": "Cursed Seal Jutsu"
+	},
+	{
+		"name": "Thor",
+		"weapon": "Sword",
+		"icon": "Thor",
+		"stats": [25, 1.4, 31, 1.7, 34, 1.9],
+		"indirect": [17, 12, 8],
+		"element": "Healing"
+	},
+	{
+		"name": "Evil Guan Yu",
+		"weapon": "Cudgel",
+		"icon": "EvilGuanYu",
+		"stats": [24, 1.9, 31, 1.7, 25, 1.4],
+		"indirect": [8, 12, 17],
+		"element": "Taijutsu"
+	},
+	{
+		"name": "Void",
+		"weapon": "Dagger",
+		"icon": "Void",
+		"stats": [33, 1.8, 27, 1.5, 30, 1.7],
+		"indirect": [8, 17, 12],
+		"element": "Genjutsu"
+	},
+	{
+		"name": "Altira",
+		"weapon": "Sword",
+		"icon": "Altira",
+		"stats": [30, 1.6, 40, 1.9, 20, 1.5],
+		"indirect": [11, 8, 18],
+		"element": "Genjutsu"
+	},
+	{
+		"name": "Badger",
+		"weapon": "Gloves",
+		"icon": "Badger",
+		"stats": [26, 1.5, 35, 1.8, 29, 1.7],
+		"indirect": [17, 8, 12],
+		"element": "Fire"
+	},
+	{
+		"name": "Merv",
+		"weapon": "Staff",
+		"icon": "Merv",
+		"stats": [33, 1.75, 21, 1.35, 36, 1.9],
+		"indirect": [11, 18, 8],
+		"element": "Fire"
+	},
+	{
+		"name": "Fleshy",
+		"weapon": "Gloves",
+		"icon": "Fleshy",
+		"stats": [25, 1.4, 32, 1.8, 33, 1.8],
+		"indirect": [17, 12, 8],
+		"element": "Taijutsu"
+	},
+	{
+		"name": "Sima Yi",
+		"weapon": "Dagger",
+		"icon": "SimaYi",
+		"stats": [33, 1.8, 26, 1.45, 30, 1.75],
+		"indirect": [8, 18, 11],
+		"element": "Fire"
+	},
+	{
+		"name": "Toadmeister",
+		"weapon": "Sword",
+		"icon": "Toadmeister",
+		"stats": [30, 1.65, 37, 1.85, 22, 1.45],
+		"indirect": [11, 9, 17],
+		"element": "Thunder"
+	},
+	{
+		"name": "Llamar",
+		"weapon": "Cudgel",
+		"icon": "Llamar",
+		"stats": [25, 1.45, 35, 1.85, 29, 1.65],
+		"indirect": [18, 8, 11],
+		"element": "Genjutsu"
+	},
+	{
+		"name": "Chrome",
+		"weapon": "Gloves",
+		"icon": "Chrome",
+		"stats": [34, 1.75, 19, 1.35, 36, 1.85],
+		"indirect": [11, 18, 8],
+		"element": "Healing"
+	},
+	{
+		"name": "Freya",
+		"weapon": "Heavy Weapon",
+		"icon": "Freya",
+		"stats": [24, 1.35, 32, 1.75, 33, 1.85],
+		"indirect": [18, 11, 8],
+		"element": "Healing"
+	}
+]

@@ -2,11 +2,12 @@
 
 import line from '@line/bot-sdk';
 import express from 'express';
+import { connect } from "ngrok";
 
 import ChaosHeroesBot from "./ChaosHeroesBot.mjs";
 
 export default class ChaosHeroesLINEBot extends ChaosHeroesBot {
-	constructor(channelAccessToken, channelSecret) {
+	constructor(channelAccessToken, channelSecret, ngrokToken) {
 		// call ChaosHeroesBot constructor
 		super();
 
@@ -26,10 +27,22 @@ export default class ChaosHeroesLINEBot extends ChaosHeroesBot {
 		// listen on port
 		const port = process.env.PORT || 3000;
 		this.app.listen(port, this.onReady.bind(this, port));
+
+		// if a ngrok authorization token is available, use it to tunnel
+		if(ngrokToken) {
+			connect({
+				authtoken: ngrokToken,
+				addr: port
+			}).then(this.ngrokReady.bind(this));
+		}
 	}
 
 	onReady(port) {
 		console.log(`LINE bot active on port ${port}`);
+	}
+
+	ngrokReady(url) {
+		console.log(`ngrok ready at URL: ${url}`);
 	}
 
 	onRequest(req, res) {
@@ -45,15 +58,16 @@ export default class ChaosHeroesLINEBot extends ChaosHeroesBot {
 	handleEvent(event) {
 		console.log(event);
 		console.log(event.type);
-		if (event.type !== 'message' || event.message.type !== 'text') {
-			// ignore non-text-message event
-			return Promise.resolve(null);
+		if (event.type === 'message' && event.message.type === 'text') {
+			return this.onMessage(event.message.text, event);
 		}
 
-		// create a echoing text message
-		const echo = { type: 'text', text: event.message.text };
+		// ignore non-text-message event
+		return Promise.resolve(null);
+	}
 
-		// use reply API
-		return client.replyMessage(event.replyToken, echo);
+	reply(msg, ctx) {
+		const data = { type: "text", text: msg };
+		return this.client.replyMessage(ctx.replyToken, data);
 	}
 }
